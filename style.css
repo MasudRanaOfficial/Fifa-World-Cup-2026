@@ -1,0 +1,85 @@
+/* Reset Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Host Grotesk", sans-serif;
+}
+
+/* Common Styles */
+
+.common-btn {
+  background-color: #e8ba2e;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Navbar Styles Start */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 0;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-logo img {
+  display: block;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 32px;
+}
+
+.navbar-menu li {
+  list-style: none;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+
+.navbar-btn {
+  border-radius: 8px;
+  gap: 8px;
+  padding: 12px 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.navbar-btn:hover {
+  background-color: #d9b42c;
+}
+
+/* Navbar Styles End */
