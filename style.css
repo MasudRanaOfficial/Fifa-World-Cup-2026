@@ -215,7 +215,7 @@ body {
 }
 
 .host-cities-info p,
-ul li {
+.host-cities-info li {
   font-weight: 300;
   font-size: 14px;
   color: #555;
@@ -232,11 +232,6 @@ ul li {
 
 .host-cities-btn {
   background-color: #f4c430;
-  border: none;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
   padding: 15px 18px;
   border-radius: 8px;
   gap: 6px;
@@ -245,3 +240,63 @@ ul li {
 }
 
 /* Host Cities Styles End */
+
+/* Table Styles Start */
+
+.table-root {
+  padding: 70px 0;
+}
+
+.table-main {
+  border: 1px solid #D9D9D9;
+  padding: 24px;
+}
+
+.table-title {
+  margin-bottom: 20px;
+}
+
+.table-title h2 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.table-title p {
+  font-weight: 300;
+  color: #505F76;
+  font-size: 14px;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td,th {
+  border: 1px solid #000;
+  padding: 16px 24px;
+  font-size: 14px;
+  text-align: center;
+}
+
+th {
+  font-weight: 600;
+}
+
+thead {
+  background-color: #A73131;
+  color: white;
+}
+
+.td-opening {
+  color: #F60000;
+  font-weight: 600;
+}
+
+.td-final {
+  color: #BDA004;
+  font-weight: 600;
+}
+
+/* Table Styles End */
