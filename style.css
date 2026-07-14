@@ -17,10 +17,6 @@ body {
   margin: auto;
 }
 
-.container-02 {
-  padding: 80px 0;
-}
-
 .common-btn {
   background-color: #e8ba2e;
   border: none;
@@ -139,3 +135,36 @@ body {
 
 /* Header/Hero Section Styles End */
 
+/* Stats Styles Start */
+
+.stats-root {
+  background-color: #F4C430;
+  margin-top: 15px;
+}
+
+.stats-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 35px;
+}
+
+.stats-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  max-width: 300px;
+}
+
+.stats-box p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.stats-box h2 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+/* Stats Styles End */
