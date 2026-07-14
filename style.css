@@ -11,22 +11,26 @@ body {
 
 /* Common Styles */
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-02 {
+  padding: 80px 0;
+}
+
 .common-btn {
   background-color: #e8ba2e;
   border: none;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
 
 /* Navbar Styles Start */
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-}
 
 .navbar-root {
   display: flex;
@@ -83,3 +87,55 @@ body {
 }
 
 /* Navbar Styles End */
+
+/* Header/Hero Styles Start */
+
+.hero-root {
+  background-image: url("./images/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding-left: 37px;
+  max-width: 420px;
+  transform: translateY(60px);
+}
+
+.hero-title {
+  color: white;
+  text-align: left;
+}
+
+.hero-title h1 {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+.hero-title p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.hero-btn {
+  padding: 13px 16px;
+  border-radius: 8px;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Header/Hero Section Styles End */
+
